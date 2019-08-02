@@ -40,7 +40,6 @@
 
 <script>
 import axios from 'axios'
-import UserDetail from "./UserDetail"
 import router from '../router/index'
 export default {
   data () {

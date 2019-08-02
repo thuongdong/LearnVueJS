@@ -14,5 +14,5 @@ new Vue({
   store: store,
   el: '#app',
   router,
-  render: h => h(Todo)
+  render: h => h(App)
 })
