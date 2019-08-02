@@ -8,6 +8,7 @@ import UserList from '@/components/UserList'
 import UserDetail from '@/components/UserDetail'
 import UserEdit from '@/components/UserEdit'
 import CreateUser from '@/components/CreateUser'
+import Todo from '@/components/Todo'
 import VuePaginate from 'vue-paginate'
 
 Vue.use(VuePaginate)
@@ -40,7 +41,11 @@ export default new Router({
       path: '/users-create',
       name: 'user-create',
       component: CreateUser
-
+    },
+    {
+      path: '/todo',
+      name: 'todo-app',
+      component: Todo
     }
   ]
 })

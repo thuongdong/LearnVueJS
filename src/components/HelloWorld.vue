@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <router-link to="/users" class="btn btn-info">Users</router-link>
+    <router-link to="/todo" class="btn btn-info">ToDo App</router-link>
   </div>
 </template>
 
