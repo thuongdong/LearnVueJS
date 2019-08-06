@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link v-if="authenticated" to="/login" v-on:click.native="logout()" replace>Logout</router-link>
     </div>
-    <router-view @authenticated="setAuthenticated" />
+    <router-view @authenticated="setAuthenticated"/>
   </div>
 </template>
 
@@ -26,7 +26,7 @@
       },
       logout() {
         this.authenticated = false;
-        localStorage.removeItem('usertoken');
+        localStorage.removeItem('userToken');
         this.$router.replace({ name: 'login'});
       }
     }

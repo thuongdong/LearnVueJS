@@ -1,63 +1,47 @@
 <template>
-    <div id="login">
-        <h1>Login</h1>
-        <input type="text" name="email" v-model="input.email" placeholder="Email" />
-        <input type="password" name="password" v-model="input.password" placeholder="Password" />
-        <button type="button" v-on:click="login">Login</button>
-    </div>
+  <div class="login">
+    <h1>Login</h1>
+    <p v-if="loginError">{{ loginError }}</p>
+    <form class="container">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" name="email" v-model="email" placeholder="Email"/>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" name="password" v-model="password" placeholder="Password"/>
+      </div>
+      <button type="button" class="btn btn-primary" @click="login">Login</button>
+    </form>
+  </div>
 </template>
 
 <script>
-    import axios from 'axios'
-    import { async } from 'q';
-    import { error, log } from 'util';
-    import { constants } from 'fs';
-    export default {
-        name: 'Login',
-        data() {
-            return {
-                input: {
-                    email: "",
-                    password: ""
-                },
-                mockAccount: {
-                    email: "nraboy",
-                    password: "password"
-                },
-                errors: [],
-                show: true,
-                users: []
-            }
-        },
-        async mounted() {
-            if (localStorage.usertoken) {
-                console.log(localStorage.usertoken);
-                this.$emit('authenticated', true);
-                this.$router.replace({ name: 'user-list'});
-            }
-            let {data: {data}} = await axios.get('https://reqres.in/api/users?per_page=999999');
-            this.users = data;
-        },
-        methods: {
-            login: async function () {
-                let userEmail = this.input;
-                if (this.users.findIndex(r => r.email === userEmail.email)) {
-                let data = await axios({ 
-                    url: 'https://reqres.in/api/login',
-                    method: 'post',
-                    data: userEmail
-                }).then((res) => {
-                    const token = res.data.token;
-                    localStorage.setItem('usertoken', token);
-                    this.$emit('authenticated', true);
-                    this.$router.replace({ name: 'user-list'});
-                }).catch((err) => {
-                    console.log('Get api err')
-                })
-                } else {
-                console.log('Login error')
-                }
-            },
-        },
+  import { mapState, mapActions } from 'vuex';
+
+  export default {
+    data() {
+      return {
+        email: '',
+        password: ''
+      }
+    },
+    computed: {
+      ...mapState([
+        'loginError',
+        'userToken'
+      ])
+    },
+    methods: {
+      ...mapActions([
+        'doLogin'
+      ]),
+      login() {
+        this.doLogin({
+          email: this.email,
+          password: this.password
+        });
+      }
     }
+  }
 </script>

@@ -55,10 +55,8 @@ export default {
     this.dsUser();
   },
   mounted() {
-    if (localStorage.usertoken) {
-      console.log(localStorage.usertoken);
+    if (localStorage.userToken) {
       this.$emit('authenticated', true);
-      this.$router.replace({ name: 'user-list'});
     } else {
       this.$router.replace({ name: 'login'});
     }
