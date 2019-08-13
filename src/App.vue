@@ -1,14 +1,36 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <div id="nav">
+      <router-link v-if="authenticated" to="/login" v-on:click.native="logout()" replace>Logout</router-link>
+    </div>
+    <router-view @authenticated="setAuthenticated"/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'App'
-}
+  export default {
+    name: 'App',
+    data() {
+      return {
+        authenticated: false
+      }
+    },
+    mounted() {
+      if(!this.authenticated) {
+          this.$router.replace({ name: "login" });
+      } this.$router.replace({ name: "user-list" });
+    },
+    methods: {
+      setAuthenticated(status) {
+        this.authenticated = status;
+      },
+      logout() {
+        this.authenticated = false;
+        localStorage.removeItem('userToken');
+        this.$router.replace({ name: 'login'});
+      }
+    }
+  }
 </script>
 
 <style>

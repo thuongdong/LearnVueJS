@@ -3,11 +3,11 @@ import Router from 'vue-router'
 import VueAxios from 'vue-axios'
 import axios from 'axios'
 Vue.use(VueAxios, axios)
-import HelloWorld from '@/components/HelloWorld'
 import UserList from '@/components/UserList'
 import UserDetail from '@/components/UserDetail'
 import UserEdit from '@/components/UserEdit'
 import CreateUser from '@/components/CreateUser'
+import Login from '@/components/Login'
 import VuePaginate from 'vue-paginate'
 
 Vue.use(VuePaginate)
@@ -15,11 +15,18 @@ Vue.use(VuePaginate)
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'helloworld',
-      component: HelloWorld
+        redirect: {
+            name: 'login'
+        }
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: Login
     },
     {
       path: '/users',
@@ -40,7 +47,6 @@ export default new Router({
       path: '/users-create',
       name: 'user-create',
       component: CreateUser
-
     }
   ]
 })

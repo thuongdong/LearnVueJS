@@ -54,6 +54,13 @@ export default {
   created: function() {
     this.dsUser();
   },
+  mounted() {
+    if (localStorage.userToken) {
+      this.$emit('authenticated', true);
+    } else {
+      this.$router.replace({ name: 'login'});
+    }
+  },
   methods: {
     dsUser () {
       this.axios.get('https://reqres.in/api/users?per_page=999999').then(response=>{
