@@ -1,33 +1,16 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/users" class="btn btn-info">Users</router-link>
-  </div>
+  <header class="container-fluid">
+    <div class="container">
+      Header
+    </div>
+  </header><!-- end of header -->
 </template>
 
-<script>
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
-</script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+  body {
+    background: #fff;
+    color: #5f5f5f;
+    font-family: Arial;
+    font-size: 12px;
+  }
 </style>
