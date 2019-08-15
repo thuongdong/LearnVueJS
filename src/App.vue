@@ -1,127 +1,127 @@
 <template>
-  <div id="container">
-    <div id="box-row">
-      <div id="circle">
-        <p id="price">$99</p>
-        <p id="person">/person</p>
+  <div class="content">
+    <div class="box-row">
+      <div class="circle">
+        <p class="price">$99</p>
+        <p class="person">/person</p>
       </div>
-      <div id="app">
-        <div id="app1">
-          <p id="p1">BASIC</p>
-          <p id="p2">PRICE PLAN</p>
+      <div class="app">
+        <div class="app1">
+          <p class="p1">BASIC</p>
+          <p class="p2">PRICE PLAN</p>
         </div>
         <table class="table table-striped">
           <thead>
             <tr>     
-              <p id="p3">Subtitle goes here</p>
-              <p id="p4">Subtitle second line goes here lorem ipsum *</p>
+              <p class="p3">Subtitle goes here</p>
+              <p class="p4">Subtitle second line goes here lorem ipsum *</p>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <p id="row">&#x2611; Lorem ipsum dolor sit amet</p>
+              <p class="row">&#x2611; Lorem ipsum dolor sit amet</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Consectetur adipisicing elit aed do</p>
+              <p class="row">&#x2611; Consectetur adipisicing elit aed do</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Eiusmod tempor incididunt ut</p>
+              <p class="row">&#x2611; Eiusmod tempor incididunt ut</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Labore et dolore magna</p>
+              <p class="row">&#x2611; Labore et dolore magna</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
+              <p class="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
             </tr>
-            <tr id="trorder">
-              <p id="order">ORDER</p>
+            <tr class="trorder">
+              <p class="order">ORDER</p>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
-    <div id="box-row">
+    <div class="box-row">
       <div>
-        <div id="circle">
-          <p id="price">$199</p>
-          <p id="person">/person</p>
+        <div class="circle">
+          <p class="price">$199</p>
+          <p class="person">/person</p>
         </div>
-        <div id="new">
+        <div class="new">
           <img src="./assets/icon.png" alt="">
-          <p id="text-new">NEW</p>
+          <p class="text-new">NEW</p>
         </div>
       </div>
-      <div id="app">
-        <div id="app2">
-          <p id="p21">ADVANCED</p>
-          <p id="p22">PRICE PLAN</p>
-          <p id="p23">This is the very best price/quantity advanced plan *</p>
+      <div class="app">
+        <div class="app2">
+          <p class="p21">ADVANCED</p>
+          <p class="p22">PRICE PLAN</p>
+          <p class="p23">This is the very best price/quantity advanced plan *</p>
         </div>
         <table class="table table-striped" id="table">
           <thead>
             <tr>     
-              <p id="p3">Subtitle goes here</p>
-              <p id="p4">Subtitle second line goes here lorem ipsum *</p>
+              <p class="p3">Subtitle goes here</p>
+              <p class="p4">Subtitle second line goes here lorem ipsum *</p>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <p id="row">&#x2611; Lorem ipsum dolor sit amet</p>
+              <p class="row">&#x2611; Lorem ipsum dolor sit amet</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Consectetur adipisicing elit aed do</p>
+              <p class="row">&#x2611; Consectetur adipisicing elit aed do</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Eiusmod tempor incididunt ut</p>
+              <p class="row">&#x2611; Eiusmod tempor incididunt ut</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Labore et dolore magna</p>
+              <p class="row">&#x2611; Labore et dolore magna</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
+              <p class="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
             </tr>
-            <tr id="trorder">
-              <p id="order1">ORDER</p>
+            <tr class="trorder">
+              <p class="order1">ORDER</p>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
-    <div id="box-row">
-      <div id="circle">
-        <p id="price3">$1999</p>
-        <p id="person">/person</p>
+    <div class="box-row">
+      <div class="circle">
+        <p class="price3">$1999</p>
+        <p class="person">/person</p>
       </div>
-      <div id="app">
-        <div id="app3">
-          <p id="p1">LIFE</p>
-          <p id="p2">TARIFE</p>
+      <div class="app">
+        <div class="app3">
+          <p class="p1">LIFE</p>
+          <p class="p2">TARIFE</p>
         </div>
         <table class="table table-striped">
           <thead>
             <tr>     
-              <p id="p3">Subtitle goes here</p>
-              <p id="p4">Subtitle second line goes here lorem ipsum *</p>
+              <p class="p3">Subtitle goes here</p>
+              <p class="p4">Subtitle second line goes here lorem ipsum *</p>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <p id="row">&#x2611; Lorem ipsum dolor sit amet</p>
+              <p class="row">&#x2611; Lorem ipsum dolor sit amet</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Consectetur adipisicing elit aed do</p>
+              <p class="row">&#x2611; Consectetur adipisicing elit aed do</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Eiusmod tempor incididunt ut</p>
+              <p class="row">&#x2611; Eiusmod tempor incididunt ut</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Labore et dolore magna</p>
+              <p class="row">&#x2611; Labore et dolore magna</p>
             </tr>
             <tr>
-              <p id="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
+              <p class="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
             </tr>
-            <tr id="trorder">
-              <p id="order">ORDER</p>
+            <tr class="trorder">
+              <p class="order">ORDER</p>
             </tr>
           </tbody>
         </table>
@@ -131,16 +131,16 @@
 </template>
 
 <style>
-#container {
+.content {
   width: 1170px;
   margin: auto;
 }
-#box-row {
+.box-row {
   float: left;
   width: 390px;
   height: 830px;
 }
-#circle {
+.circle {
   margin: 76px 0 0 42px;
   position: relative;
   width: 124px;
@@ -151,56 +151,56 @@
   --border-radius: 62px;
   border-radius: 62px;
 }
-#new {
+.new {
   float: left;
   position: relative;
   margin: -100px 0 0 148px;
 }
-#text-new {
+.text-new {
   margin: -41px 0 0 18px;
   color: #ffffff;
   font-size: 14px;
 }
-#price {
+.price {
   text-align: center;
   color: #0bc2dc;
   font-size: 23px;
   padding-top: 38px;
   margin-bottom: 0;
 }
-#price3 {
+.price3 {
   text-align: center;
   color: #9986ff;
   font-size: 23px;
   padding-top: 38px;
   margin-bottom: 0;
 }
-#person {
+.person {
   text-align: center;
   color: #93a2ae;
   font-size: 14px;
   margin-bottom: 0;
 }
-#app {
+.app {
   margin: -62px 0 0 0;
   color: #f23665;
 }
-#app1 {
+.app1 {
   width: 390px;
   height: 272px;
   background: #00bcd4;
 }
-#app2 {
+.app2 {
   width: 390px;
   height: 272px;
   background: #1c94ca;
 }
-#app3 {
+.app3 {
   width: 390px;
   height: 272px;
   background: #7264bd;
 }
-#p1 {
+.p1 {
   margin: 0;
   padding: 143px 0 0 48px;
   font-size: 25px;
@@ -208,7 +208,7 @@
   color: #ffffff;
   font-family: Arial;
 }
-#p21 {
+.p21 {
   margin: 0;
   padding: 108px 0 0 48px;
   font-size: 25px;
@@ -216,42 +216,42 @@
   color: #ffffff;
   font-family: Arial;
 }
-#p2 {
+.p2 {
   margin: 0;
   padding: 16px 0 50px 48px;
   font-size: 26px;
   color: #ffffff;
   font-family: Arial;
 }
-#p22 {
+.p22 {
   margin: 0;
   padding: 16px 0 0 48px;
   font-size: 26px;
   color: #ffffff;
   font-family: Arial;
 }
-#p23 {
+.p23 {
   margin: 0;
   padding: 15px 0 0 48px;
   font-size: 10px;
   color: #ffffff;
   font-family: Arial;
 }
-#p3 {
+.p3 {
   margin: 0;
   padding: 31px 0 0 48px;
   font-size: 12px;
   color: #5f727f;
   font-family: Arial;
 }
-#p4 {
+.p4 {
   margin: 0;
   padding: 14px 0 28px 48px;
   font-size: 10px;
   color: #99a9b5;
   font-family: Arial;
 }
-#row {
+.row {
   padding: 18px 0 21px 48px;
   margin: 0px;
   font-family: Arial;
@@ -272,10 +272,10 @@
   border-color: #dfe5e8;
   width: 390px;
 }
-#trorder {
+.trorder {
   height: 146px;
 }
-#order {
+.order {
   margin: 48px 0 0 48px;
   background: #b6c6c9;
   width: 150px;
@@ -288,7 +288,7 @@
   font-weight: bold;
   font-family: Arial;
 }
-#order1 {
+.order1 {
   margin: 48px 0 0 48px;
   background: #2c2e3d;
   width: 150px;
