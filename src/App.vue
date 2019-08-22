@@ -1,304 +1,238 @@
 <template>
-  <div class="content">
-    <div class="box-row">
-      <div class="circle">
-        <p class="price">$99</p>
-        <p class="person">/person</p>
+  <div class="table-price">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,700&display=swap" rel="stylesheet">
+    <div class="table-col-1">
+      <div class="table-level">
+        <div class="price">$99<span class="price-limit">/person</span></div>
+        <h2 class="">BASIC</h2>
+        <h1 class="">PRICE PLAN</h1>
       </div>
-      <div class="app">
-        <div class="app1">
-          <p class="p1">BASIC</p>
-          <p class="p2">PRICE PLAN</p>
+      <div class="table-title">
+        <div class="table-title-text">
+          <h3>Subtitle goes here</h3>
+          <h6>Subtitle second line goes here lorem ipsum *</h6>
         </div>
-        <table class="table table-striped">
-          <thead>
-            <tr>     
-              <p class="p3">Subtitle goes here</p>
-              <p class="p4">Subtitle second line goes here lorem ipsum *</p>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <p class="row">&#x2611; Lorem ipsum dolor sit amet</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Consectetur adipisicing elit aed do</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Eiusmod tempor incididunt ut</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Labore et dolore magna</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
-            </tr>
-            <tr class="trorder">
-              <p class="order">ORDER</p>
-            </tr>
-          </tbody>
-        </table>
+      </div>
+      <div class="table-list">
+        <ul>
+          <li>&#x2611; Lorem ipsum dolor sit amet</li>
+          <li>&#x2611; Consectetur adipisicing elit aed do</li>
+          <li>&#x2611; Eiusmod tempor incididunt ut</li>
+          <li>&#x2611; Labore et dolore magna</li>
+          <li>&#x2611; Enim ad ninim veniam quis nostrud</li>
+        </ul>
+      </div>
+      <div class="table-footer">
+        <div class="table-footer-purchase">
+          <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+        </div>
       </div>
     </div>
-    <div class="box-row">
-      <div>
-        <div class="circle">
-          <p class="price">$199</p>
-          <p class="person">/person</p>
+    <div class="table-col-2">
+      <div class="table-level">
+        <div class="price">
+          $199
+          <span class="price-limit">/person</span>
+          <div class="new">
+           NEW
+          </div>
         </div>
-        <div class="new">
-          <img src="./assets/icon.png" alt="">
-          <p class="text-new">NEW</p>
+        <h2 class="">ADVANCED</h2>
+        <h1 class="">PRICE PLAN</h1>
+        <h6>This is the very best price/quantity advanced plan *</h6>
+      </div>
+      <div class="table-title">
+        <div class="table-title-text">
+          <h3>Subtitle goes here</h3>
+          <h6>Subtitle second line goes here lorem ipsum *</h6>
         </div>
       </div>
-      <div class="app">
-        <div class="app2">
-          <p class="p21">ADVANCED</p>
-          <p class="p22">PRICE PLAN</p>
-          <p class="p23">This is the very best price/quantity advanced plan *</p>
+      <div class="table-list">
+        <ul>
+          <li>&#x2611; Lorem ipsum dolor sit amet</li>
+          <li>&#x2611; Consectetur adipisicing elit aed do</li>
+          <li>&#x2611; Eiusmod tempor incididunt ut</li>
+          <li>&#x2611; Labore et dolore magna</li>
+          <li>&#x2611; Enim ad ninim veniam quis nostrud</li>
+        </ul>
+      </div>
+      <div class="table-footer">
+        <div class="table-footer-purchase">
+          <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
         </div>
-        <table class="table table-striped" id="table">
-          <thead>
-            <tr>     
-              <p class="p3">Subtitle goes here</p>
-              <p class="p4">Subtitle second line goes here lorem ipsum *</p>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <p class="row">&#x2611; Lorem ipsum dolor sit amet</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Consectetur adipisicing elit aed do</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Eiusmod tempor incididunt ut</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Labore et dolore magna</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
-            </tr>
-            <tr class="trorder">
-              <p class="order1">ORDER</p>
-            </tr>
-          </tbody>
-        </table>
       </div>
     </div>
-    <div class="box-row">
-      <div class="circle">
-        <p class="price3">$1999</p>
-        <p class="person">/person</p>
+    <div class="table-col-3">
+      <div class="table-level">
+        <div class="price">$1999<span class="price-limit">/person</span></div>
+        <h2 class="">LIFT</h2>
+        <h1 class="">TAIFF</h1>
       </div>
-      <div class="app">
-        <div class="app3">
-          <p class="p1">LIFE</p>
-          <p class="p2">TARIFE</p>
+      <div class="table-title">
+        <div class="table-title-text">
+          <h3 class="h33">Subtitle goes here</h3>
+          <h6>Subtitle second line goes here lorem ipsum *</h6>
         </div>
-        <table class="table table-striped">
-          <thead>
-            <tr>     
-              <p class="p3">Subtitle goes here</p>
-              <p class="p4">Subtitle second line goes here lorem ipsum *</p>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <p class="row">&#x2611; Lorem ipsum dolor sit amet</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Consectetur adipisicing elit aed do</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Eiusmod tempor incididunt ut</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Labore et dolore magna</p>
-            </tr>
-            <tr>
-              <p class="row">&#x2611; Enim ad ninim veniam quis nostrud</p>
-            </tr>
-            <tr class="trorder">
-              <p class="order">ORDER</p>
-            </tr>
-          </tbody>
-        </table>
+      </div>
+      <div class="table-list">
+        <ul>
+          <li>&#x2611; Lorem ipsum dolor sit amet</li>
+          <li>&#x2611; Consectetur adipisicing elit aed do</li>
+          <li>&#x2611; Eiusmod tempor incididunt ut</li>
+          <li>&#x2611; Labore et dolore magna</li>
+          <li>&#x2611; Enim ad ninim veniam quis nostrud</li>
+        </ul>
+      </div>
+      <div class="table-footer">
+        <div class="table-footer-purchase">
+          <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style>
-.content {
-  width: 1170px;
-  margin: auto;
+.table-price {
+  margin-top: 150px;
+  margin-bottom: 150px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.box-row {
-  float: left;
-  width: 390px;
-  height: 830px;
+.table-price .table-col-1 {
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  border: 0.5px solid #dfe5e8;
 }
-.circle {
-  margin: 76px 0 0 42px;
+.table-price .table-col-2 {
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+  border: 0.5px solid #dfe5e8;
+}
+.table-price .table-col-3 {
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+   margin-bottom: 70px;
+  border: 0.5px solid #dfe5e8;
+}
+.table-level {
   position: relative;
-  width: 124px;
-  height: 124px;
-  background: #393d50;
-  -moz-border-radius: 62px;
-  -webkit-border-radius: 62px;
-  --border-radius: 62px;
-  border-radius: 62px;
-}
-.new {
-  float: left;
-  position: relative;
-  margin: -100px 0 0 148px;
-}
-.text-new {
-  margin: -41px 0 0 18px;
+  padding: 42.43% 0 16.9% 12.53%;
   color: #ffffff;
-  font-size: 14px;
-}
-.price {
-  text-align: center;
-  color: #0bc2dc;
-  font-size: 23px;
-  padding-top: 38px;
-  margin-bottom: 0;
-}
-.price3 {
-  text-align: center;
-  color: #9986ff;
-  font-size: 23px;
-  padding-top: 38px;
-  margin-bottom: 0;
-}
-.person {
-  text-align: center;
-  color: #93a2ae;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-.app {
-  margin: -62px 0 0 0;
-  color: #f23665;
-}
-.app1 {
-  width: 390px;
-  height: 272px;
   background: #00bcd4;
 }
-.app2 {
-  width: 390px;
-  height: 272px;
+.table-col-2 .table-level {
   background: #1c94ca;
+  position: relative;
+  padding: 36.2% 0 16.9% 12.53%;
 }
-.app3 {
-  width: 390px;
-  height: 272px;
+.table-col-3 .table-level {
   background: #7264bd;
 }
-.p1 {
+.price {
+  position: absolute;
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  background: #393d50;
+  top: -18%;
+  text-align: center;
+  color: #1b9dd9;
+  font-size: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.table-col-2 .price {
+    color: #9986ff;
+}
+span.price-limit {
+  display: block;
+  color: #93a2ae;
+  font-size: 14px;
+}
+.table-title-text {
+  padding: 8% 0 8% 12.53%;;
+}
+ul {
+  list-style-type: none;
+  color: #9fa9b0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
   margin: 0;
-  padding: 143px 0 0 48px;
-  font-size: 25px;
-  font-weight: bold;
-  color: #ffffff;
-  font-family: Arial;
+  padding: 0;
 }
-.p21 {
-  margin: 0;
-  padding: 108px 0 0 48px;
-  font-size: 25px;
-  font-weight: bold;
-  color: #ffffff;
-  font-family: Arial;
+li {
+  line-height: 50px;
+  padding: 0 0 0 12.53%;
 }
-.p2 {
-  margin: 0;
-  padding: 16px 0 50px 48px;
-  font-size: 26px;
-  color: #ffffff;
-  font-family: Arial;
+li:nth-child(odd) {
+  background: #f4f6f7;
 }
-.p22 {
-  margin: 0;
-  padding: 16px 0 0 48px;
-  font-size: 26px;
-  color: #ffffff;
-  font-family: Arial;
+li:nth-child(even) {
+  background: #ffffff;
 }
-.p23 {
-  margin: 0;
-  padding: 15px 0 0 48px;
-  font-size: 10px;
-  color: #ffffff;
-  font-family: Arial;
-}
-.p3 {
-  margin: 0;
-  padding: 31px 0 0 48px;
-  font-size: 12px;
-  color: #5f727f;
-  font-family: Arial;
-}
-.p4 {
-  margin: 0;
-  padding: 14px 0 28px 48px;
-  font-size: 10px;
-  color: #99a9b5;
-  font-family: Arial;
-}
-.row {
-  padding: 18px 0 21px 48px;
-  margin: 0px;
-  font-family: Arial;
-}
-.table-striped {
-  border-top-style: none;
-  border-right-style: ridge;
-  border-left-style: ridge;
-  border-bottom-style: ridge;
-  border-color: #dfe5e8;
-  width: 390px;
-}
-#table {
-  border-top-style: none;
-  border-right-style: none;
-  border-left-style: none;
-  border-bottom-style: ridge;
-  border-color: #dfe5e8;
-  width: 390px;
-}
-.trorder {
+.table-footer {
   height: 146px;
 }
-.order {
-  margin: 48px 0 0 48px;
-  background: #b6c6c9;
-  width: 150px;
-  height: 50px;
-  border-radius: 50px;
-  text-align: center;
-  color: #ffffff;
-  font-size: 13px;
-  padding-top: 17px;
-  font-weight: bold;
-  font-family: Arial;
+.table-footer-purchase {
+  padding: 12.53% 0 0 12.53%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
-.order1 {
-  margin: 48px 0 0 48px;
-  background: #2c2e3d;
-  width: 150px;
-  height: 50px;
-  border-radius: 50px;
-  text-align: center;
+a {
   color: #ffffff;
+  background: #b6c6c9;
+  padding: 4% 9%;
+  border-radius: 30px;
+}
+a:hover {
+  color: #ffffff;
+  background: #2c2e3d;
+  text-decoration: none;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+}
+h3 {
+  color: #d3d7da;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+h6 {
+  color: #d3d7da;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
   font-size: 13px;
-  padding-top: 17px;
-  font-weight: bold;
-  font-family: Arial;
+}
+.table-level h6 {
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+.new {
+  position: absolute;
+  font-size: 14px;
+  color: #ffffff;
+  padding-top: 20%;
+  width: 66px;
+  height: 66px;
+  margin: 0 0 0 85%;
+  background-image: url("./assets/icon.png");
 }
 </style>
