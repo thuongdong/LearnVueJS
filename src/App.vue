@@ -172,12 +172,10 @@ ul {
 li {
   line-height: 50px;
   padding: 0 0 0 12.53%;
+  background: #ffffff;
 }
 li:nth-child(odd) {
   background: #f4f6f7;
-}
-li:nth-child(even) {
-  background: #ffffff;
 }
 .table-footer {
   height: 146px;
