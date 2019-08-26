@@ -103,22 +103,16 @@
 }
 .table-price .table-col-1 {
   width: 391px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 70px;
   border: 0.5px solid #dfe5e8;
 }
 .table-price .table-col-2 {
   width: 391px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 70px;
   border: 0.5px solid #dfe5e8;
 }
 .table-price .table-col-3 {
   width: 391px;
-  display: flex;
-  flex-direction: column;
    margin-bottom: 70px;
   border: 0.5px solid #dfe5e8;
 }
