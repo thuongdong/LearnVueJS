@@ -1,90 +1,92 @@
 <template>
-  <div class="table-price">
-    <div class="table-col">
-      <div class="price">$99<span class="price-limit">/person</span></div>
-      <div class="table-level-basic">
-        <h2 class="">BASIC</h2>
-        <h1 class="">PRICE PLAN</h1>
-      </div>
-      <div class="table-title">
-        <div class="table-title-text">
-          <h3>Subtitle goes here</h3>
-          <h6>Subtitle second line goes here lorem ipsum *</h6>
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-sm">
+        <div class="price">$99<span class="price-limit">/person</span></div>
+        <header class="table-level-basic">
+          <h2 class="">BASIC</h2>
+          <h1 class="">PRICE PLAN</h1>
+        </header>
+        <div class="table-title">
+          <div class="table-title-text">
+            <h3>Subtitle goes here</h3>
+            <h6>Subtitle second line goes here lorem ipsum *</h6>
+          </div>
+        </div>
+        <div class="table-list">
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipisicing elit aed do</li>
+            <li>Eiusmod tempor incididunt ut</li>
+            <li>Labore et dolore magna</li>
+            <li>Enim ad ninim veniam quis nostrud</li>
+          </ul>
+        </div>
+        <div class="table-footer">
+          <div class="table-footer-purchase">
+            <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+          </div>
         </div>
       </div>
-      <div class="table-list">
-        <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Consectetur adipisicing elit aed do</li>
-          <li>Eiusmod tempor incididunt ut</li>
-          <li>Labore et dolore magna</li>
-          <li>Enim ad ninim veniam quis nostrud</li>
-        </ul>
-      </div>
-      <div class="table-footer">
-        <div class="table-footer-purchase">
-          <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+      <div class="col-sm">
+        <div class="price price-new">
+          $199
+          <span class="price-limit">/person</span>
+          <div class="new">
+            NEW
+          </div>
+        </div>
+        <div class="table-level-advanced">
+          <h2 class="">ADVANCED</h2>
+          <h1 class="">PRICE PLAN</h1>
+          <h6>This is the very best price/quantity advanced plan *</h6>
+        </div>
+        <div class="table-title">
+          <div class="table-title-text">
+            <h3>Subtitle goes here</h3>
+            <h6>Subtitle second line goes here lorem ipsum *</h6>
+          </div>
+        </div>
+        <div class="table-list">
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipisicing elit aed do</li>
+            <li>Eiusmod tempor incididunt ut</li>
+            <li>Labore et dolore magna</li>
+            <li>Enim ad ninim veniam quis nostrud</li>
+          </ul>
+        </div>
+        <div class="table-footer">
+          <div class="table-footer-purchase">
+            <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="table-col">
-      <div class="price">
-        $199
-        <span class="price-limit">/person</span>
-        <div class="new">
-          NEW
+      <div class="col-sm">
+        <div class="price">$1999<span class="price-limit">/person</span></div>
+        <div class="table-level-lift">
+          <h2 class="">LIFT</h2>
+          <h1 class="">TAIFF</h1>
         </div>
-      </div>
-      <div class="table-level-advanced">
-        <h2 class="">ADVANCED</h2>
-        <h1 class="">PRICE PLAN</h1>
-        <h6>This is the very best price/quantity advanced plan *</h6>
-      </div>
-      <div class="table-title">
-        <div class="table-title-text">
-          <h3>Subtitle goes here</h3>
-          <h6>Subtitle second line goes here lorem ipsum *</h6>
+        <div class="table-title">
+          <div class="table-title-text">
+            <h3 class="h33">Subtitle goes here</h3>
+            <h6>Subtitle second line goes here lorem ipsum *</h6>
+          </div>
         </div>
-      </div>
-      <div class="table-list">
-        <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Consectetur adipisicing elit aed do</li>
-          <li>Eiusmod tempor incididunt ut</li>
-          <li>Labore et dolore magna</li>
-          <li>Enim ad ninim veniam quis nostrud</li>
-        </ul>
-      </div>
-      <div class="table-footer">
-        <div class="table-footer-purchase">
-          <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+        <div class="table-list">
+          <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipisicing elit aed do</li>
+            <li>Eiusmod tempor incididunt ut</li>
+            <li>Labore et dolore magna</li>
+            <li>Enim ad ninim veniam quis nostrud</li>
+          </ul>
         </div>
-      </div>
-    </div>
-    <div class="table-col">
-      <div class="price">$1999<span class="price-limit">/person</span></div>
-      <div class="table-level-lift">
-        <h2 class="">LIFT</h2>
-        <h1 class="">TAIFF</h1>
-      </div>
-      <div class="table-title">
-        <div class="table-title-text">
-          <h3 class="h33">Subtitle goes here</h3>
-          <h6>Subtitle second line goes here lorem ipsum *</h6>
-        </div>
-      </div>
-      <div class="table-list">
-        <ul>
-          <li>Lorem ipsum dolor sit amet</li>
-          <li>Consectetur adipisicing elit aed do</li>
-          <li>Eiusmod tempor incididunt ut</li>
-          <li>Labore et dolore magna</li>
-          <li>Enim ad ninim veniam quis nostrud</li>
-        </ul>
-      </div>
-      <div class="table-footer">
-        <div class="table-footer-purchase">
-          <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+        <div class="table-footer">
+          <div class="table-footer-purchase">
+            <a href="https://www.w3schools.com/css/default.asp">ORDER</a>
+          </div>
         </div>
       </div>
     </div>
@@ -95,32 +97,30 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
-.table-price {
+.container {
+  max-width: 1170px;
   margin-top: 150px;
   margin-bottom: 150px; 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
 }
-.table-price .table-col {
+.col-sm {
   position: relative;
-  width: 391px;
   margin-bottom: 70px; 
   border: 0.5px solid #dfe5e8;
 }
 .table-level-basic {
-  padding: 42.43% 0 16.9% 12.53%;
+  padding-left: 12.53%;
+  padding: 42.43% 5% 16.9% 12.53%;
   color: #ffffff;
   background: #00bcd4;
 }
 .table-level-advanced {
-  padding: 36.5% 0 16.9% 12.53%;
+  padding: 36.3% 5% 16.9% 12.53%;
   color: #ffffff;
   background: #1c94ca;
 }
 .table-level-lift {
-  padding: 42.43% 0 16.9% 12.53%;
+  padding: 42.43% 5% 16.9% 12.53%;
   color: #ffffff;
   background: #7264bd;
 }
@@ -139,11 +139,11 @@
   background: #393d50;
   border-radius: 50%;
 }
-.table-col-2 .price {
+.price-new {
   color: #9986ff;
 }
-span.price-limit {
-  display: block;
+.price-limit {
+  display: inline-block;
   font-size: 14px;
   color: #93a2ae;
 }
@@ -158,7 +158,8 @@ ul {
   color: #9fa9b0;
 }
 li {
-  padding: 0 0 0 18%;
+  padding-left: 18%;
+  transition: all 0.3s;
   line-height: 50px;
   background: #ffffff;
 }
